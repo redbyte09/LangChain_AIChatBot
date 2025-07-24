@@ -1,9 +1,10 @@
 # langchain_helper.py
 
 import os
-from langchain.llms import Cohere
+from langchain_community.llms import Cohere
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
+
 
 
 # You can hardcode or use os.getenv("COHERE_API_KEY") if using .env
